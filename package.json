@@ -1,0 +1,24 @@
+{
+  "name": "personnel_tracker",
+  "version": "1.0.0",
+  "description": "Personnel_Tracker is an application that uses the command line interface to use information store in data bases. Allowing non-developers managers or HR easily to find, modify, and add new  information related to the company department or personnel. .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranklynSuriel/Personnel_Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranklynSuriel/Personnel_Tracker/issues"
+  },
+  "homepage": "https://github.com/FranklynSuriel/Personnel_Tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.1.2"
+  }
+}
