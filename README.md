@@ -61,6 +61,7 @@ Deployed App link
 
 - Inquirer Documentation
 - mysql Documentation
+- console.table Documentation
 - Stack Overflow
 
 ## License
