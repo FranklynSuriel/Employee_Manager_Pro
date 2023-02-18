@@ -1,4 +1,4 @@
-# Employee Management System
+# Employee Manager Pro
 
 ![License](https://img.shields.io/badge/license-MIT-green)
   
@@ -21,7 +21,7 @@ This application requires nodejs, inquirer 8.2.4 and mysql2. Open Git Bash or Te
 
 ## Usage
 
-Welcome to the Employee Management System!
+Welcome to the Employee Manager Pro!
 
 To open the application, use the command line interface. A menu will appear with the following options:
 
@@ -47,13 +47,13 @@ If you choose "Add an employee," you will be prompted to enter the employee's fi
 
 If you choose "Update an employee role," you will be prompted to select the employee you want to update and their new role. Once entered, the employee's role will be updated in the database.
 
-Thank you for using the Employee Management System!
+Thank you for using the Employee Manager Pro!
 
 Deployed App link
 
 [https://](https://)
 
-![Employee Management System](./)
+![Employee Manager Pro](./)
 
 
 
