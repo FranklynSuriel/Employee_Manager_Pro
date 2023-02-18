@@ -1,0 +1,47 @@
+INSERT INTO department (name)
+VALUES ("Sales"),
+       ("Legal"),
+       ("Finance"),
+       ("Engineering"),
+       ("Marketing"),
+       ("Research"),
+       ("Customer Services");
+
+INSERT INTO role (title, salary, department_id)
+VALUES ("Sales Lead", 100000, 1),
+       ("Salesperson", 80000, 1 ),
+       ("Legal Team Lead", 250000, 2),
+       ("Lawyer", 190000, 2),
+       ("Account Manager", 160000, 3),
+       ("Accountant", 125000, 3),
+       ("Lead Engineer", 150000, 4),
+       ("Software Engineer", 120000, 4),
+       ("Marketing Manager", 100000, 5),
+       ("Marketing", 80000, 5),
+       ("Research Manager", 130000, 6),
+       ("Researcher", 90000, 6),
+       ("HR Manager", 100000, 7),
+       ("HR Representative", 70000, 7);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("John","Doe", 1, NULL),
+       ("Mike","Chan", 2, 1),
+       ("Ashley","Rodriguez", 2, 1),
+       ("Kevin","Sams", 3, NULL),
+       ("Samuel","Allen", 4, 3),
+       ("Jeff","Lourd", 4, 3),
+       ("Tom","Richards", 5, NULL),
+       ("Kunal","Singh", 6, 5),
+       ("Billy","Joel", 6, 5),
+       ("Emily","Brown", 7, NULL),
+       ("Alex","Rodriguez", 8, 7),
+       ("Sammy","Sosa", 8, 7),
+       ("Sarah","Parker", 9, NULL),
+       ("Michael","Jordan", 10, 9),
+       ("Barry","Bond", 10, 9),
+       ("Malia","Jackson", 11, NULL),
+       ("Shaq","O'neil", 12, 11),
+       ("Ray","Ortiz", 12, 11),
+       ("David","Peralta", 13, NULL),
+       ("Frank","Martin", 14, 13),
+       ("Jhon","Smith", 14, 13);
