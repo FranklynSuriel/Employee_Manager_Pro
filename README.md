@@ -4,7 +4,7 @@
   
 ## Description
 
-Employee Management System is a command line interface application that uses the command line interface to use information store in data bases. Allowing non-developers managers or HR easily to find, modify, and add new  information related to the company department and personnel.
+Employee Manager Pro is a command line interface application that uses the command line interface to use information store in data bases. Allowing non-developers managers or HR easily to find, modify, and add new  information related to the company department and personnel.
 
 ## Table of Contents
 
