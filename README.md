@@ -17,7 +17,14 @@ Employee Manager Pro is a command line interface application that uses the comma
 
 ## Installation
  
-This application requires nodejs, inquirer 8.2.4 and mysql2. Open Git Bash or Terminal and type: **"node server.js"**.
+This application requires the following packages:
+- nodejs 
+- inquirer 8.2.4 
+- mysql2
+- console.table
+- ascii-art-font
+
+Open Git Bash or Terminal and type: **"node index.js"**.
 
 ## Usage
 
@@ -49,11 +56,7 @@ If you choose "Update an employee role," you will be prompted to select the empl
 
 Thank you for using the Employee Manager Pro!
 
-Deployed App link
-
-[https://](https://)
-
-![Employee Manager Pro](./)
+![Employee Manager Pro](./assets/Pictures/Emplotee%20Manager%20Pro.jpg)
 
 
 
@@ -62,6 +65,7 @@ Deployed App link
 - Inquirer Documentation
 - mysql Documentation
 - console.table Documentation
+- ascii-art-font Documentation
 - Stack Overflow
 
 ## License
