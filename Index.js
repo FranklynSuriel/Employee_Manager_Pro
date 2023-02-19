@@ -138,7 +138,40 @@ function viewAllDepartments() {
   }
   
   // Prompt for a new role title, salary,
-
+  function addRole() {
+    inquirer
+      .prompt([
+        {
+        name: 'title',
+        type: 'input',
+        message: 'What is the role name?',
+        },
+        {
+        name: 'salary',
+        type: 'input',
+        message: 'What is the salary for the role?',
+        },
+        {
+        name: 'department_id',
+        type: 'input',
+        message: 'What is the department id for the role?',
+        },
+      ])
+      .then((answer) => {
+        db.query(
+          'INSERT INTO role SET ?',
+          { title: answer.title,
+            salary: answer.salary,
+            department_id: answer.department_id,
+          },
+          (err, res) => {
+            if (err) throw err;
+            console.log(`Added ${answer.title} to roles`);
+            run();
+          }
+        );
+      });
+  }
 
 
   
