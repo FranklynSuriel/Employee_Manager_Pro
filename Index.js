@@ -2,24 +2,31 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
 const table = require('console.table');
-
+const Font = require('ascii-art-font');
 
 const db = mysql.createConnection(
-    {
-        host: 'localhost',
-        // MySQL username,
-        user: 'root',
-        // MySQL password
-        password: 'House25*+',
-        database: 'company_db'        
-    },
-    console.log(`Connected to the company_db database.`)
-);
+  {
+    host: 'localhost',
+    // MySQL username,
+    user: 'root',
+    // MySQL password
+    password: 'House25*+',
+    database: 'company_db'        
+  },
+  console.log(`Connected to the company_db database.`)
+  );
+  
+  Font.create('Employee', 'Doom', function(err, result){
+    console.log(result);
+  });
+  Font.create('Manager', 'Doom', function(err, result){
+    console.log(result);
+  });
 
 // Connect to the database and start the application
 db.connect((err) => {
     if (err) throw err;
-    console.log(`Connected as id ${db.threadId}`);
+    // console.log(`Connected as id ${db.threadId}`);
     run();
   });
 
