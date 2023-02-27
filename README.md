@@ -11,22 +11,24 @@ Employee Manager Pro is a command line interface application that uses the comma
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
-  - [Contrubutions](#Contributions)
+  - [Contributions](#Contributions)
   - [Test](#Test)
   - [Questions](#Questions)
 
 ## Installation
  
 This application requires the following packages:
-- nodejs 
-- inquirer 8.2.4 
-- mysql2
-- console.table
-- ascii-art-font
+- [nodejs](https://nodejs.org/en/)
+- [MySQL2 package](https://www.npmjs.com/package/mysql2)
+- [console.table package](https://www.npmjs.com/package/console.table)
+- [ascii-art-font package](https://www.npmjs.com/package/ascii-art-font)
 
 Open Git Bash or Terminal and type: **"node index.js"**.
 
 ## Usage
+
+
+[Walkthrough video](https://drive.google.com/file/d/1J_n1tLwuytSrPyhiFR_X62Mej1VhqLcz/view?usp=sharing)
 
 Welcome to the Employee Manager Pro!
 
@@ -54,6 +56,9 @@ If you choose "Add an employee," you will be prompted to enter the employee's fi
 
 If you choose "Update an employee role," you will be prompted to select the employee you want to update and their new role. Once entered, the employee's role will be updated in the database.
 
+If you choose "View all departments budget", a formatted table will appear showing the department names
+and the department budget.
+
 Thank you for using the Employee Manager Pro!
 
 ![Employee Manager Pro](./assets/Pictures/Emplotee%20Manager%20Pro.jpg)
@@ -74,7 +79,7 @@ This project is licensed under the MIT license.
 
 ## Contributing
 
-No contribubutions guidelines.
+No contributions guidelines.
 
 ## Test
 
@@ -84,5 +89,5 @@ No test available.
 
 [github.com/FranklynSuriel](https://github.com/FranklynSuriel)
 
-Questions about this proyect or to report an issue can be sent to:
-fsuriel@gmail.com. Please especify the name of the proyect in the subject of the email.
+Questions about this project or to report an issue can be sent to:
+fsuriel@gmail.com. Please specify the name of the project in the subject of the email.
